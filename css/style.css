@@ -1,0 +1,68 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* first section  css */
+
+.banner {
+  background: #2d25a0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+}
+
+.banner-p {
+  margin-left: 132px;
+  height: 230px;
+  width: 485px;
+}
+
+.banner-p p {
+  color: white;
+  font-weight: bolder;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.watch-live {
+  margin-left: 132px;
+}
+
+.watch-live h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 40px;
+  border-radius: 5px;
+  margin-bottom: 169px;
+  width: 108px;
+  height: 25px;
+  padding: 10px 25px;
+  text-align: center;
+  color: white;
+  background-color: #e02c6d;
+}
+
+span {
+  color: yellowgreen;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.banner-image img {
+  height: 556px;
+  width: 438px;
+  object-fit: contain;
+  padding-right: 50px;
+  margin-bottom: 86px;
+}
+
+/* animation on "watch live" button*/
+
+.watch-live h2:hover {
+  color: whitesmoke;
+  background-color: #f85a11;
+  transform: rotate(360deg) translate(90px);
+  transition: transform 1s ease-out;
+}
