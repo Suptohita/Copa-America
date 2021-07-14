@@ -105,3 +105,24 @@ span {
   transform: scale(1.2);
   transition: transform 2s ease-in-out;
 }
+
+/* footer  */
+
+footer {
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  padding-top: 50px;
+  height: 110px;
+  width: 480px;
+}
+
+i {
+  padding: 5px;
+}
