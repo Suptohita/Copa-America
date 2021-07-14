@@ -6,7 +6,10 @@ body {
   background-color: rgba(241, 234, 234, 0.979);
 }
 
-/* first section  css */
+/* 
+------------
+first section  css
+------------ */
 
 .banner {
   background: #2d25a0;
@@ -69,7 +72,10 @@ span {
   transition: transform 1s ease-out;
 }
 
-/* second section css*/
+/* 
+-----------------
+second section css
+------------------*/
 
 .second-section {
   margin-left: 350px;
@@ -94,7 +100,9 @@ span {
   height: 250px;
 }
 
-/* hover and animation */
+/* -------------
+hover and animation
+--------------- */
 
 .players:hover {
   border: lightslategray solid 1px;
@@ -105,6 +113,90 @@ span {
 .player-image:hover {
   transform: scale(1.2);
   transition: transform 2s ease-in-out;
+}
+
+/* 
+------------------------
+third-section 
+------------------------
+*/
+
+.third-section {
+  background-color: rgb(250, 241, 227);
+}
+
+.third-section h1 {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 80px;
+  text-decoration: underline red 3px;
+}
+
+.stadium-img {
+  margin-bottom: 50px;
+  margin-left: 80px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.third-section h3 {
+  color: rgb(77, 74, 74);
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* 
+----------------
+forth section 
+-----------------
+*/
+
+.supporters {
+  background-color: rgb(228, 238, 213);
+  color: #ff0800;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.supporters > h1 > span {
+  color: #f9be21;
+}
+
+.forth-section {
+  padding-top: 30px;
+  padding-left: 20px;
+  background-color: rgb(228, 238, 213);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  padding: 15px;
+}
+
+.supporter-image {
+  display: inline-block;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+img {
+  object-fit: cover;
+  width: 900px;
+  height: 700px;
+  transition: 0.25s ease-in-out;
+}
+.supporter-image:hover img {
+  transform: scale(1.1);
 }
 
 /* footer  */
