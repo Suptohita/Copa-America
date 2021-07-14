@@ -1,3 +1,5 @@
+/* for 1920*1080 devices */
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -48,7 +50,6 @@ body {
 span {
   color: yellowgreen;
   text-align: center;
-  padding-left: 5px;
 }
 
 .banner-image img {
@@ -125,4 +126,53 @@ footer {
 
 i {
   padding: 5px;
+}
+
+/* media query */
+/* for mobile devices */
+
+@media only screen and (max-width: 688px) {
+  .banner {
+    flex-direction: column;
+    padding-left: 80px;
+  }
+
+  .second-section {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+  }
+
+  .players {
+    margin: 0;
+  }
+
+  .logo img {
+    height: 100px;
+    width: 180px;
+  }
+}
+
+/* for tablet devices */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .banner {
+    padding-left: 100px;
+  }
+
+  .banner-p {
+    width: 320px;
+  }
+
+  .banner-image img {
+    padding-right: 180px;
+  }
+
+  .players {
+    margin-left: 100px;
+  }
+
+  .second-section {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0px;
+  }
 }
